@@ -1,11 +1,11 @@
 # NVIDIA NCA-GENAI Prep
 
 ## Exam Domains & Confidence
-- Machine Learning & Neural Networks – **15%** (Confidence: Low)
-- Prompt Engineering – **20%** (Confidence: Low)
-- LLM Integration & Deployment – **25%** (Confidence: Low)
-- Trustworthy AI – **20%** (Confidence: Low)
-- Software Development & Experimentation – **20%** (Confidence: Low)
+- Core Machine Learning and AI Knowledge – **30%** (Confidence: Low)
+- Data Analysis – **14%** (Confidence: Low)
+- Experimentation – **22%** (Confidence: Low)
+- Software Development – **24%** (Confidence: Low)
+- Trustworthy AI – **10%** (Confidence: Low)
 
 ## Week 1 Plan
 - Day 1: Setup repo + map blueprint

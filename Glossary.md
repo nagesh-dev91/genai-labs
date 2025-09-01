@@ -75,3 +75,31 @@ Which of the following are accurate descriptions of how Generative Artificial In
 
 	“Generative AI models share similarities with autocomplete.”
 ✔ Correct – especially for text generation. Large Language Models predict the next token in a sequence, much like autocomplete but far more powerful.
+
+Types of Prompts:
+
+	Zero-shot → no examples, just ask the question.
+
+	Few-shot → include a worked-out example before asking.
+
+	System prompt with role instruction → tell the model how to behave (e.g., “You are an ML professor”).
+
+Ideal Responses:
+
+	Zero-shot (ideal):
+
+	- Supervised learning uses labeled data.
+	- Unsupervised learning uses unlabeled data.
+	- Supervised predicts known outputs; unsupervised finds hidden patterns.
+
+
+	Few-shot (ideal):
+
+	- Matches the example style (bullet points).
+	- Clear separation between supervised vs unsupervised.
+
+
+	System prompt (ideal):
+
+	- Precise, structured, and professor-like.
+	- Consistently bullet-formatted.
