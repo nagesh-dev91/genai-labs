@@ -132,6 +132,18 @@ Modern Generative AI relies on several architectures, each suited for different 
 
 ## 8. Architectures (Quick Reference)
 - **GANs** → Generator vs Discriminator → image synthesis
+	Two parts: Generator makes fake data, Discriminator judges if it’s real.
+	Used for images, videos, synthetic data.
+	Not directly tied to embeddings, but helped inspire generative approaches.
 - **VAEs** → Encode → sample → decode → structured outputs
+		Encode → compress input into a “latent space” (a smaller representation).
+		Sample from latent space → decode → generate new data.
+		Embeddings are conceptually like this latent space — a compressed, meaningful representation of input.
 - **Diffusion Models** → Start noisy → denoise iteratively → realism
+	Start with random noise → iteratively denoise → generate realistic data.
+	State-of-the-art for images (Stable Diffusion, DALL·E 2).
+	Not embedding-focused, but also work in a latent space (compressed representation).
 - **Transformers** → Self-attention → LLMs foundation
+	Use self-attention to model relationships between tokens (words).
+	Foundation of LLMs (GPT, BERT, T5, etc.).
+	Embedding models like all-MiniLM-L6-v2 are transformers trained to output embeddings.
